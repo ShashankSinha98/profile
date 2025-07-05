@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Shashank Sinha Portfolio</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -91,13 +91,25 @@
             <div data-date="Aug 2024 – Current">
                 <h3>Algorist, Berlin</h3>
                 <h4>Working Student - Android Developer</h4>
-                <p>Developing a multi-modular service booking app in Kotlin with MVVM and Jetpack Compose.</p>
+                <p>I’m working as an Android Developer (Working Student) building a multi-modular service 
+                    booking app in Kotlin with MVVM and Jetpack Compose, focusing on clean architecture, 
+                    scalability, and testability. I’ve architected reusable modules for authentication, 
+                    camera, and secure real-time chat (using LiveKit), seamlessly integrated into multiple 
+                    apps. I also implemented secure token-based session management, adopted agile and TDD 
+                    practices, and streamlined CI/CD with GitHub Actions, ensuring robust delivery of 
+                    production-ready features.</p>
             </div>
 
             <div data-date="Feb 2021 – Sep 2023">
                 <h3>Samsung R&D, India</h3>
                 <h4>Software Developer/Engineer </h4>
-                <p>Led core development of Samsung’s global power-saving feature, collaborating with Korean HQ to ensure stability and resolve 600+ high-priority issues.</p>
+                <p>I worked as a Software Engineer leading the core development of Samsung’s global 
+                    power-saving feature, collaborating closely with Korean HQ to stabilize and resolve 
+                    over 600 high-priority issues. I modernized legacy code from MVC to Kotlin with MVVM 
+                    and extensive unit testing, raising coverage from 30% to 90%, significantly boosting 
+                    maintainability. Additionally, I built a RASA-based chatbot that increased task completion 
+                    by 40% and won our team the Best Squad Award, while also reducing app size by 35% through 
+                    ProGuard optimizations.</p>
             </div>
         </div>
     </div>
@@ -113,19 +125,19 @@
                 <b>GPA:</b> 1.7
             </p>
             <li>
-                Algorithm Engineering
+                Introduction to Software Engineering for Engineers
             </li>
             <li>
                 Clean Code Development
             </li>
             <li>
-                Human Centred Natural Language Processing
+                Machine Learning
+            </li>
+            <li>
+                Database Concepts
             </li>
             <li>
                 Software Testing
-            </li>
-            <li>
-                Machine Learning
             </li>
         </div>
         <!-- End .education-block -->
@@ -149,7 +161,45 @@
         <h2 class="heading">Projects</h2>
         <div class="container">
             <div class="row">
- 
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/fra.png"  style="width:350px; height:250px;"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Food Recommendation Application</h3>
+                        <p>
+                            Led development of a QR-based food ordering app in Java & Firebase, enabling users to quickly order top recommended food and drinks. Built a sentiment analysis model with RNNs on customer reviews to recommend top food options, achieving
+                            over 92% precision.
+                        </p>
+                        <a href="https://github.com/ShashankSinha98/Food-Ordering-Application-with-Review-Analyzer" target="_blank">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/rasa_bot.png"  style="width:150px; height:300px; margin-left:80px;"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Chatbot App</h3>
+                        <p>
+                            Developed an Android application in Kotlin that interfaces with a RASA chatbot server, 
+                            enabling real-time conversational AI on mobile. Implemented clean MVVM architecture 
+                            with Retrofit, Gson, and Glide to handle RESTful communication, JSON parsing, and 
+                            image loading. Set up ngrok tunnels to expose the RASA server for seamless testing, 
+                            ensuring a responsive and interactive user experience. This project demonstrates strong 
+                            skills in integrating NLP backends with mobile clients and handling asynchronous data flows.
+                        </p>
+                        <a href="https://github.com/ShashankSinha98/RASA-BOT-Android" target="_blank">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
                 <div class="project shadow-large">
                     <div class="project-image">
                         <img src="images/chess.JPG"  style="width:300px; height:300px;"/>
@@ -167,6 +217,8 @@
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
+
+                
             </div>
         </div>
     </div>
